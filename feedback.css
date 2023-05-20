@@ -1,10 +1,10 @@
-*{
-    padding: 10px;
-    background-size: cover;
-  }
-  body {
+    *{
+        padding: 10px;
+        background-size: cover;
+    }
+    body {
       font-family: 'Times New Roman', Times, serif;
-      background-color: rgb(248, 183, 4);
+      background-color: rgb(235, 229, 162);
       font-size: 20px;
     }
     
@@ -13,46 +13,38 @@
         background-image: url('b3.jpg');
         background-size: cover;
     }
-    .feed h2{
-        color: rgb(214, 218, 221);
-        font-size: 35px;
+    h3{
+        color: #bcb7b7;
         text-align: center;
         padding: 10px;
-        text-transform: uppercase;
+        text-transform: none;
     }
-    
-    .feed form{
-        padding: 20px;
-        text-align: center;
-    }
-    .feed form input{
+    input{
+        background-color: white;
         width: 30%;
         margin: 10px;
         padding: 8px;
-        outline: none;
-        border: none;
     }
-    .feed form textarea{
+    textarea{
+        background-color: white;
+        width: 30%;
+        margin: 10px;
+        padding: 8px;  
+    }
+    button{
         width: 30%;
         margin: 10px;
         padding: 8px;
-        outline: none;
-        border: none;  
-    }
-    .feed  form button{
-        width: 30%;
-        margin: 10px;
-        padding: 8px;
-        outline: none;
-        border: none; 
-        background-color: orange;
+        background-color: rgb(228, 235, 124);
         border: 2px solid rgb(226, 214, 214);  
-        color: aliceblue;
+        color: rgb(41, 11, 11);
+        font-weight: bold;
         border-radius: 10px; 
     }
     
     form{
+      text-align: center;
       margin: 20px;
       padding: 20px;
       box-shadow: 4px 4px 16px black;
-  }
+    }
